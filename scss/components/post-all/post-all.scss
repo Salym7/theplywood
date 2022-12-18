@@ -1,0 +1,37 @@
+.post-all {
+  &__flex {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__box {
+    margin-bottom: 24px;
+  }
+
+  &__box-title {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  &__box-text {
+    margin-bottom: 3px;
+    line-height: 21.82px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  &__img-mob {
+    display: none;
+    width: 120px;
+  }
+
+}

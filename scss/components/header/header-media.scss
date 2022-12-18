@@ -1,0 +1,35 @@
+.header {
+  @media (max-width: 992px) {
+    .hidden-table {
+      display: none;
+    }
+    .menu-button {
+      display: block;
+    }
+    .menu-mob {
+      .nav-link {
+        justify-content: space-between;
+      }
+
+      .dropdown-content {
+        width: 100%;
+      }
+
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hidden-mob {
+      display: none;
+    }
+  }
+
+  .search {
+    @media (max-width: 992px) {
+      &__inner {
+        display: block;
+        background: white;
+      }
+    }
+  }
+}

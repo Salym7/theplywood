@@ -1,0 +1,94 @@
+.hero {
+  margin-bottom: 35px;
+
+  &__inner {
+    position: relative;
+    max-width: 645px;
+    margin: 0 auto;
+  }
+
+  &__block {
+    z-index: 10;
+    box-sizing: border-box;
+    left: 0;
+    top: -540px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 650px;
+    border-radius: 20px;
+    padding: 30px;
+    color: #3C2000;
+
+    &-title {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 52px;
+      margin-bottom: 8px;
+    }
+
+    &-subtitle {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 21px;
+    }
+
+    .button-main {
+      font-size: 24px;
+      padding: 12px 58px;
+    }
+  }
+
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper .swiper-slide {
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-position {
+  position: relative;
+}
+
+.swiper-pagination {
+  padding-top: 10px;
+  position: static;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #aaaaaa;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet:hover {
+  background: #757575;
+}
+
+.swiper-pagination-bullet-active {
+  background: #757575;
+}
+
+.slide_1 {
+  background-image: url("../assets/hero-slider1.png");
+}
+
+.slide_2 {
+  background-image: url("../assets/hero-slider2.jpg");
+}
+
+.slide_3 {
+  background-image: url("../assets/hero-slider3.jpg");
+}

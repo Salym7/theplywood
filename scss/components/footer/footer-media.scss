@@ -1,0 +1,16 @@
+.footer {
+  @media (max-width: 992px) {
+    .footer__about, .footer__pages, .footer__recent {
+      width: 48%;
+    }
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 576px) {
+    .footer__about, .footer__pages, .footer__recent {
+      width: 100%;
+    }
+  }
+}

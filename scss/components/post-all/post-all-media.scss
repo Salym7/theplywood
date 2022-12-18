@@ -1,0 +1,41 @@
+.post-all {
+  @media (max-width: 992px) {
+    &__box-title {
+      -webkit-line-clamp: 3;
+    }
+    &__img {
+      width: 250px;
+    }
+  }
+  @media (max-width: 576px) {
+    &__box-title {
+      margin-bottom: 12px;
+    }
+
+    .box-date {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+
+    &__box-text {
+      -webkit-line-clamp: 3;
+    }
+    &__img-mob {
+      width: 111px;
+      height: 81px;
+      display: block;
+    }
+    &__flex-mob {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    &__flex {
+      gap: 0;
+    }
+    &__img {
+      display: none;
+    }
+  }
+
+}

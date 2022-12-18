@@ -1,0 +1,96 @@
+.footer {
+
+  &__pages-logo {
+    height: 123px;
+    width: 155px;
+  }
+
+  &__inner {
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 16px;
+  }
+
+  &__text:not(&__text:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  &__text a {
+    color: #0B7AB3;
+  }
+
+  &__text a:hover {
+    color: black;
+  }
+
+
+  .footer__about, .footer__pages, .footer__recent {
+    width: 33%;
+  }
+
+  &__pages-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    padding-top: 2px;
+
+    &-link {
+      color: #0B7AB3;
+    }
+
+    &-link:hover {
+      color: black;
+    }
+
+    &-item {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      font-size: 14px;
+    }
+
+    &-item:not(&-item:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .search-form-txt {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+
+  &__bottom {
+    color: white;
+    text-align: center;
+    background: #222222;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 20px 0;
+
+    &-link {
+      color: white;
+    }
+
+    &-link:hover {
+      color: #0B7AB3;
+    }
+  }
+}
