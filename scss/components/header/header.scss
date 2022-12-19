@@ -242,7 +242,7 @@
   }
 
   &__search {
-    padding-top: 72px;
+    padding-top: 76px;
     background: #FFFBEB;
     padding-bottom: 10px;
   }
@@ -260,6 +260,14 @@
 }
 
 .header-black {
+  .header__search {
+    padding-top: 60px;
+  }
+
+  .search__inner {
+    border-radius: 3px;
+  }
+
   .header__top {
     background: #222222;
   }

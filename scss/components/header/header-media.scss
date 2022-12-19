@@ -18,12 +18,6 @@
     }
   }
 
-  @media (max-width: 576px) {
-    .hidden-mob {
-      display: none;
-    }
-  }
-
   .search {
     @media (max-width: 992px) {
       &__inner {
@@ -32,4 +26,20 @@
       }
     }
   }
+
+  @media (max-width: 576px) {
+    &__search {
+      padding-top: 60px;
+    }
+    &__logo-img {
+      height: 45px;
+    }
+
+    .hidden-mob {
+      display: none;
+    }
+  }
+
+
 }
+

@@ -28,6 +28,10 @@ menuButton.addEventListener('click', (e) => {
 })
 
 const swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 3000,
+    },
+    effect: "fade",
     pagination: {
         el: ".swiper-pagination",
         clickable: true,

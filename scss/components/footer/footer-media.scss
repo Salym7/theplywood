@@ -9,6 +9,9 @@
     }
   }
   @media (max-width: 576px) {
+    &__inner {
+      padding-top: 30px;
+    }
     .footer__about, .footer__pages, .footer__recent {
       width: 100%;
     }
