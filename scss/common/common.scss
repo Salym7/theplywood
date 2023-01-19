@@ -49,6 +49,7 @@ li {
 }
 
 .search-form {
+  background: white;
   border: 2px solid #AAAAAA;
   border-radius: 3px;
   display: flex;
@@ -146,6 +147,9 @@ li {
 .button-main:hover {
   background: #E66E00;
 }
+.post-all__box img, .post__box img {
+  border-radius: 3px;
+}
 
 
 @media (max-width: 576px) {
@@ -185,3 +189,16 @@ li {
   border-radius: 5px;
 }
 
+
+.search-form {
+  background: white;
+}
+
+.post__box img, .post-all__box img {
+  border-radius: 3px;
+}
+@media (min-width: 992px) {
+  .post__box img {
+    height: 252px;
+  }
+}
